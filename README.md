@@ -46,7 +46,6 @@ A estrutura de diretórios do projeto é a seguinte:
 ## **Tecnologias Utilizadas**
 
 
-## **Tecnologias Detalhadas**
 
 ### 1. **React**
 Já mencionamos, mas vale destacar que **React** é a principal biblioteca JavaScript para a construção da interface de usuário (UI), promovendo o desenvolvimento de componentes reutilizáveis e interativos. 
