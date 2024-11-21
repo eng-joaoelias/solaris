@@ -1,1 +1,1 @@
-O cuidado em identificar pontos críticos no surgimento do comércio virtual assume importantes posições no estabelecimento de alternativas às soluções ortodoxas.
+O cuidado em identificar pontos críticos na crescente influência da mídia faz parte de um processo de gerenciamento dos índices pretendidos.
