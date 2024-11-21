@@ -253,6 +253,4 @@ Substitua `YOUR_API_KEY` pela chave da API que você obteve de um serviço de pr
 
 Este projeto fornece uma interface limpa e funcional para consultar o clima em tempo real e as previsões futuras. Ele é projetado para ser intuitivo e fácil de usar, com uma navegação simples e interatividade rica, como gráficos e troca de tema.
 
-O código é modular e baseado
-
- em componentes reutilizáveis, o que facilita a manutenção e a escalabilidade do projeto.
+O código é modular e baseado em componentes reutilizáveis, o que facilita a manutenção e a escalabilidade do projeto.
