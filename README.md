@@ -110,17 +110,15 @@ Embora não tenha sido especificamente detalhado nos códigos que você enviou, 
 - **Requisições à API de Clima**: A API do clima (presumivelmente de algum serviço como OpenWeatherMap ou WeatherAPI) seria acessada via **Axios** para obter as previsões e os dados meteorológicos.
 - **Gerenciamento de Respostas**: O Axios facilita a manipulação de respostas e erros de requisição, como a resposta da previsão do tempo, e também pode ser integrado com **React Query** ou outros gerenciadores de estado para otimizar o consumo da API.
 
-### 10. **JSON Web Tokens (JWT)**
-Se o projeto tivesse algum sistema de autenticação de usuários, seria comum o uso de **JWT** para autenticar e autorizar as requisições. Nesse caso, **JWT** ajudaria a garantir que apenas usuários autenticados pudessem acessar determinados recursos.
 
-### 11. **Vite**
+### 10. **Vite**
 **Vite** é uma ferramenta de build de próxima geração que substitui o Webpack em muitos projetos. Ele oferece tempo de build significativamente mais rápido e melhor performance de desenvolvimento.
 
 #### Características Relevantes:
 - **Desenvolvimento Rápido**: Vite melhora o tempo de recarga do navegador ao fazer atualizações incrementais de módulo, melhorando a experiência de desenvolvimento.
 - **Suporte ao TypeScript**: Vite suporta **TypeScript** nativamente, permitindo que o código seja compilado de forma eficiente.
 
-### 12. **ESLint e Prettier**
+### 11. **ESLint e Prettier**
 - **ESLint** é uma ferramenta para garantir a qualidade do código, ajudando a encontrar e corrigir problemas no JavaScript (ou TypeScript).
 - **Prettier** é uma ferramenta de formatação de código que garante que todo o código siga um padrão de estilo.
 
