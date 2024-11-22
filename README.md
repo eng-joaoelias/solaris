@@ -48,7 +48,7 @@ A estrutura de diretórios do projeto é a seguinte:
 
 
 ### 1. **React**
-Já mencionamos, mas vale destacar que **React** é a principal biblioteca JavaScript para a construção da interface de usuário (UI), promovendo o desenvolvimento de componentes reutilizáveis e interativos. 
+Já mencionado, mas vale destacar que **React** é a principal biblioteca JavaScript para a construção da interface de usuário (UI), promovendo o desenvolvimento de componentes reutilizáveis e interativos. 
 
 #### Características Relevantes:
 - **Componentização**: A aplicação é construída por meio de componentes React que são responsáveis por diferentes partes da UI, como a exibição de previsões de tempo e a troca de tema.
