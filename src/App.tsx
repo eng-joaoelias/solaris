@@ -1,30 +1,58 @@
 import React, { useState } from 'react';
 
-// Componente para gerar um número aleatório
-const RandomNumberGenerator: React.FC = () => {
-  const [randomNumber, setRandomNumber] = useState<number | null>(null);
+const App: React.FC = () => {
+  // Estado para a contagem
+  const [count, setCount] = useState<number>(0);
 
-  const generateRandomNumber = () => {
-    const number = Math.floor(Math.random() * 100) + 1; // Gera número entre 1 e 100
-    setRandomNumber(number);
+  // Função para incrementar a contagem
+  const increment = () => {
+    setCount(count + 1);
+  };
+
+  // Função para decrementar a contagem
+  const decrement = () => {
+    setCount(count - 1);
   };
 
   return (
-    <div>
-      <button onClick={generateRandomNumber}>Gerar Número Aleatório</button>
-      {randomNumber !== null && <p>O número aleatório é: {randomNumber}</p>}
+    <div style={styles.container}>
+      <h1 style={styles.header}>Contagem: {count}</h1>
+      <div style={styles.buttonContainer}>
+        <button style={styles.button} onClick={increment}>Incrementar</button>
+        <button style={styles.button} onClick={decrement}>Decrementar</button>
+      </div>
     </div>
   );
 };
 
-// Componente principal App
-const App: React.FC = () => {
-  return (
-    <div className="App">
-      <h1>Bem-vindo ao Gerador de Números Aleatórios!</h1>
-      <RandomNumberGenerator />
-    </div>
-  );
+// Estilos em linha
+const styles = {
+  container: {
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: '100vh',
+    backgroundColor: '#f0f0f0',
+    fontFamily: 'Arial, sans-serif',
+  },
+  header: {
+    color: '#333',
+  },
+  buttonContainer: {
+    marginTop: '20px',
+    display: 'flex',
+    gap: '10px',
+  },
+  button: {
+    padding: '10px 20px',
+    fontSize: '16px',
+    backgroundColor: '#4CAF50',
+    color: 'white',
+    border: 'none',
+    borderRadius: '5px',
+    cursor: 'pointer',
+  }
 };
 
 export default App;
